@@ -33,6 +33,6 @@ def weather_detection(city, api_key):
     print(result)
 
 if __name__ == "__main__":
-    API_KEY = "f16e046fa64dee40b1abcbb3fdbc2d22"
+    API_KEY = " " #your api key
     city = input("Enter the city: ")
     weather_detection(city, API_KEY)
